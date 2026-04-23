@@ -1,58 +1,47 @@
-🛡️ Cyber-Sentinel SOC Simulator v9.9
-A high-performance, real-time Security Operations Center (SOC) dashboard simulation. This project visualizes network traffic, simulates various cyber attack vectors, and demonstrates automated defensive countermeasures in a high-tech terminal interface.
-![alt text](https://img.shields.io/badge/license-MIT-green)
+# Cyber-Sentinel: SOC Dashboard v9.9
 
-![alt text](https://img.shields.io/badge/version-9.9-blue)
+---
 
-![alt text](https://img.shields.io/badge/tech-Vanilla--JS-yellow)
-🚀 Features
-🖥️ Real-Time Monitoring
-Live Log Terminal: Streams inbound network requests with 200 OK status codes and highlights malicious activity in neon red.
-Network Load Analytics: A dynamic HTML5 Canvas graph that visualizes real-time PPS (Packets Per Second) and system load.
-Global Attack Feed: A dedicated panel showing the history of recent threats, including origin country, timestamp, and attack type.
-⚔️ Attack Simulation (8 Vectors)
-Simulate professional-grade threats with a single click:
-Bruteforce: Mass password guessing simulations.
-SQL Injection: Database manipulation attempts.
-DDoS Strike: High-volume traffic congestion.
-Port Scan: Service discovery and reconnaissance.
-XSS Attack: Client-side script injection.
-Ransomware: Data encryption threats.
-Phishing: Credential theft simulation.
-Zero-Day: Exploitation of unknown vulnerabilities.
-🤖 Intelligent Defense
-Autonomous Defense Mode: A logic-driven toggle that automatically generates randomized threats to test the SOC's visualization capabilities.
-Countermeasures Log: Tracks firewall actions (e.g., "IP Blocked", "Packet Dropped") in response to detected threats.
-Incident Analysis Report: Provides a deep dive into the last detected incident, including Risk Score, Source IP, and Geographical Location.
-🌍 Accessibility & UI
-Multi-Language Support: Instant toggle between English and Russian.
-Interactive Tooltips: High-readability info boxes that explain every attack type in detail.
-Boot Sequence: An immersive command-line initialization sequence upon system startup.
-🛠️ Tech Stack
-HTML5: Semantic structure and layout.
-CSS3: Neon-cyberpunk styling using Flexbox and Grid.
-Vanilla JavaScript: Real-time logic, data generation, and DOM manipulation (No external libraries required).
-Canvas API: High-performance graph rendering.
-📥 Installation
-Clone the repository:
-code
-Bash
-git clone https://github.com/your-username/cyber-sentinel-soc.git
-Navigate to the directory:
-code
-Bash
-cd cyber-sentinel-soc
-Run the project:
-Simply open index.html in any modern web browser.
-🕹️ How to Use
-Initialize: Click the "START MONITORING" button after the boot sequence completes.
-Manual Test: Use the sidebar buttons to inject specific attacks.
-Analyze: Observe the Incident Analysis Report and the Attack Feed to see how the system identifies the threat.
-Learn: Hover over the "?" icons to read detailed descriptions of the attack vectors.
-Automate: Toggle "AUTONOMOUS DEFENSE" to watch the system handle a continuous stream of threats.
-⚠️ Disclaimer
-This project is a simulator designed for educational and entertainment purposes. It does not perform actual network scanning, hacking, or security functions. It is a front-end visualization of how a SOC environment operates.
-📄 License
-Distributed under the MIT License. See LICENSE for more information.
-Developed with 💻 by [Your Name/Username]
-"Securing the digital frontier, one packet at a time."
+## About
+
+**Cyber-Sentinel SOC** is a high-performance, real-time Security Operations Center (SOC) dashboard simulation. It is designed to visualize network traffic logs, analyze incoming threats, and demonstrate automated defensive countermeasures in a cyberpunk-styled terminal interface.
+
+Built with a focus on speed and visual clarity, this tool allows security enthusiasts to observe how different attack vectors impact a system and how a modern SOC environment identifies and mitigates them.
+
+---
+
+## Features
+
+*   **Real-time Monitoring:** Live Log Terminal streaming inbound requests with advanced filtering.
+*   **8+ Attack Vectors:** Built-in simulation for Bruteforce, SQLi, DDoS, XSS, Ransomware, Phishing, Port Scanning, and Zero-Day exploits.
+*   **Global Attack Feed:** A dedicated real-time panel tracking the origin country, timestamp, and type of every threat.
+*   **Network Analytics:** Integrated HTML5 Canvas for dynamic Network Load (PPS) visualization.
+*   **Autonomous Defense:** An AI-driven "Auto-Pilot" mode that generates randomized threats for continuous system testing.
+*   **Multi-Language UI:** Seamless instant toggle between English and Russian interfaces.
+*   **Interactive Tooltips:** Deep-dive descriptions for every attack vector to explain security risks.
+
+---
+
+## How to run
+
+1. Clone the repository: 
+2. Open the directory:
+3. Run the project: Simply open `index.html` in any modern web browser.
+
+**Note:** For the best visual experience, a screen resolution of 1920x1080 is recommended. The dashboard is fully optimized for Chrome, Firefox, and Edge.
+
+---
+
+## Tech stack
+
+*   **HTML5** — semantic structure and layout
+*   **CSS3** — custom grid system with neon-cyberpunk UI components
+*   **Vanilla JavaScript** — core logic and real-time data processing
+*   **Canvas API** — high-performance network load graphing
+*   **Zero-Dependency** — no external libraries required for maximum speed
+
+---
+
+## Project structure
+
+<img width="296" height="134" alt="image" src="https://github.com/user-attachments/assets/7c83b300-9db1-4e03-bef9-2e46f8d8e8aa" />
