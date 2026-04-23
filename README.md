@@ -1,6 +1,6 @@
 # Cyber-Sentinel: SOC Dashboard v9.9
 
----
+<img width="2554" height="1352" alt="image" src="https://github.com/user-attachments/assets/6b2ec164-f7d7-402f-be3e-432d53e73e93" />
 
 ## About
 
